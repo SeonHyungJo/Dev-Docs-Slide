@@ -1,14 +1,15 @@
 {
   "private": true,
   "scripts": {
-    "dev": "slidev",
-    "build": "slidev build",
-    "export": "slidev export"
+    "dev": "slidev slides.md",
+    "build": "slidev build slides.md",
+    "export": "slidev export slides.md"
   },
   "dependencies": {
     "@slidev/cli": "^0.5.0",
     "@slidev/theme-default": "^0.5.0",
-    "@slidev/theme-seriph": "^0.5.0"
+    "@slidev/theme-seriph": "^0.5.0",
+    "playwright-chromium": "^1.10.0"
   },
   "name": "slidev-dev-docs"
 }
